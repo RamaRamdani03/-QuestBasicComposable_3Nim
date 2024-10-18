@@ -93,6 +93,9 @@ fun BasicCompose(
                 color = Color.Blue
             ),
         )
+
+        Text(
+            text = "20220140098",
     }
 }
 
