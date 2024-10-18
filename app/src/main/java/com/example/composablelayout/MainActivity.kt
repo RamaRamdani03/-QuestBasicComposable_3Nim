@@ -39,8 +39,15 @@ class MainActivity : ComponentActivity() {
 fun BasicCompose(
     modifier: Modifier = Modifier
 ){
+    Column (
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Top,
+        modifier = modifier.fillMaxSize().padding(top = 32.dp)
+    ){
 
+    }
 }
+
 @Composable
 fun BasicCompose(name: String, modifier: Modifier = Modifier) {
     Text(
