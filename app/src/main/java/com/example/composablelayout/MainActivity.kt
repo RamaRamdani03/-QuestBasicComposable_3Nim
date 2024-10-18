@@ -96,6 +96,12 @@ fun BasicCompose(
 
         Text(
             text = "20220140098",
+            style = TextStyle(
+                fontSize = 30.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            ),
+        )
     }
 }
 
