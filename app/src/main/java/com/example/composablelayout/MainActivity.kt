@@ -80,6 +80,11 @@ fun BasicCompose(
 
         Text(
             text = "Nama",
+            style = TextStyle(
+                fontSize = 24.sp,
+                color = Color.Black
+            ),
+        )
     }
 }
 
