@@ -102,6 +102,10 @@ fun BasicCompose(
                 color = Color.Black
             ),
         )
+
+        Image(
+            painter = painterResource(id = R.drawable.sayaaa),
+        )
     }
 }
 
