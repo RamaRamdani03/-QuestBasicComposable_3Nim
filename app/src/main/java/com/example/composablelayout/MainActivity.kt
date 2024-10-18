@@ -32,7 +32,6 @@ class MainActivity : ComponentActivity() {
             ComposableLayoutTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     BasicCompose(
-                        name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -85,6 +84,9 @@ fun BasicCompose(
                 color = Color.Black
             ),
         )
+
+        Text(
+            text = "Rama Ramdani",
     }
 }
 
