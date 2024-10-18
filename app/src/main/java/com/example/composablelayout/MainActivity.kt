@@ -87,6 +87,12 @@ fun BasicCompose(
 
         Text(
             text = "Rama Ramdani",
+            style = TextStyle(
+                fontSize = 28.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            ),
+        )
     }
 }
 
