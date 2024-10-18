@@ -109,6 +109,7 @@ fun BasicCompose(
         Image(
             painter = painterResource(id = R.drawable.sayaaa),
             contentDescription = null,
+            modifier = Modifier
         )
     }
 }
