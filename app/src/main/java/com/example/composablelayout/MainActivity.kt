@@ -59,7 +59,7 @@ fun BasicCompose(
                 fontSize = 40.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Black
-            )
+            ),
         )
 
         Text(
@@ -67,14 +67,19 @@ fun BasicCompose(
             style = TextStyle(
                 fontSize = 20.sp,
                 color = Color.Gray
-            )
+            ),
         )
 
         Image(
             painter = painterResource(id = R.drawable.umyeah),
             contentDescription = null,
-            modifier = Modifier.size(150.dp).padding(bottom = 16.dp)
+            modifier = Modifier
+                .size(150.dp)
+                .padding(bottom = 16.dp)
         )
+
+        Text(
+            text = "Nama",
     }
 }
 
